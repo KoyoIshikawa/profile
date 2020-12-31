@@ -13,6 +13,8 @@ body {
   width: 150px;
   border: solid white;
   border-radius: 10%;
+  margin: 40px 20px -30px 30px;
+
 }
 #myname{
   color: white;
@@ -22,6 +24,7 @@ body {
 }
 nav {
   background-color: #aacccc;
+  border-radius: 10px 10px 0px 0px;
 }
 nav ul li {
   display: inline;
@@ -31,4 +34,35 @@ nav ul li a {
   text-decoration: none;
   color: #444444;
   font-weight: bold;
+}
+.top {
+  width: 800px;
+  margin: 0px auto 0px auto;
+}
+nav ul {
+  margin-left: 210px;
+}
+.container {
+  background-color: white;
+  width: 740px;
+  margin: 0px auto 0px auto;
+  padding: 30px 30px 60px 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+.profile {
+  padding: 0px 20px 0px 20px;
+  line-height: 35px;
+}
+hr {
+  margin: 20px 0px 20px 0px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #9fbb9f;
+  width: 100%;
+  text-align: center;
+  text-color: #228822;
+  padding: 30px 0px;
+  font-size: 12px;
 }
